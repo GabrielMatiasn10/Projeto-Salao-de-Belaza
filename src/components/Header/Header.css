@@ -1,0 +1,32 @@
+/* Estilos comuns */
+.header {
+    width: 100%;
+    max-width: 1366px;
+    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.inicio {
+    color: var(--Primary-color, #69B99D);
+    font-family: 'DM Sans', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: var(--Dark, #0F241D);
+    font-family: 'DM Sans', sans-serif;
+    font-size: 19px; /* Reduzi o tamanho da fonte para melhor se ajustar em telas menores */
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 4%;
+}
+
+a:hover {
+    color: var(--Primary-color, #69B99D);
+}
