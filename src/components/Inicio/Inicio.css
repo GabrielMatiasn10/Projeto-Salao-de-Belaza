@@ -5,8 +5,8 @@
     height: auto;
     flex-shrink: 0;
     display: flex;
-    flex-direction: column; /* Empilhe os elementos verticalmente em telas pequenas */
-    align-items: center; /* Centralize o conteúdo horizontalmente */
+    flex-direction: column; 
+    align-items: center; 
     text-align: center;
     
 }
