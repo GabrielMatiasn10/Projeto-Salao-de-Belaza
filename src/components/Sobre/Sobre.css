@@ -7,15 +7,15 @@ h2 {
     font-weight: 700;
     line-height: normal;
     margin-left: 2340px;
-    margin: 0 auto; /* Centralize o elemento horizontalmente */
+    margin: 0 auto;
 }
 
 .sobre {
-    width: 100%; /* Use a largura total do contêiner pai */
-    max-width: 610px; /* Largura máxima para limitar o texto */
-    margin: 0 auto; /* Centralize o elemento horizontalmente */
+    width: 100%;
+    max-width: 610px; 
+    margin: 0 auto; 
     font-weight: 400;
-    line-height: 24px; /* 150% */
+    line-height: 24px; 
     color: var(--Gray, #767676);
     font-family: DM Sans;
     font-size: 18px;
@@ -25,11 +25,11 @@ h2 {
 }
 
 img {
-    margin: 20px auto; /* Centralize a imagem horizontalmente e adicione margens superiores e inferiores */
-    width: 100%; /* A imagem ocupará a largura total do contêiner pai */
-    max-width: 561px; /* Largura máxima para limitar o tamanho em telas maiores */
-    height: auto; /* A altura será ajustada automaticamente para manter a proporção da imagem */
-    display: block; /* Remova o espaço extra abaixo da imagem */
+    margin: 20px auto; 
+    width: 100%; 
+    max-width: 561px; 
+    height: auto; 
+    display: block; 
     text-align: center;
     border-radius: 10px;
     flex-shrink: 0;
@@ -38,10 +38,10 @@ img {
 /* Estilos para telas menores (por exemplo, dispositivos móveis) */
 @media (max-width: 768px) {
     h2 {
-        font-size: 20px; /* Reduza o tamanho da fonte para telas menores */
+        font-size: 20px; 
     }
 
     .sobre {
-        font-size: 14px; /* Reduza o tamanho da fonte para telas menores */
+        font-size: 14px; 
     }
 }

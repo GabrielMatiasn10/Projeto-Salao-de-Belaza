@@ -1,14 +1,15 @@
-/* Estilos comuns */
+
 .header {
     width: 100%;
     max-width: 1366px;
-    height: auto; /* Altura automática para se ajustar ao conteúdo */
+    height: auto; 
     flex-shrink: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0 auto;
+    padding: 10px; 
 }
 
 .inicio {
@@ -20,13 +21,26 @@ a {
     text-decoration: none;
     color: var(--Dark, #0F241D);
     font-family: 'DM Sans', sans-serif;
-    font-size: 19px; /* Reduzi o tamanho da fonte para melhor se ajustar em telas menores */
+    font-size: 20px; 
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 4%;
+    padding: 3%;
+    display: block; 
+    text-align: center; 
 }
 
 a:hover {
     color: var(--Primary-color, #69B99D);
+}
+
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media (max-width: 768px) {
+    .header {
+        padding: 5px; 
+    }
+
+    a {
+        font-size: 14px; 
+    }
 }
