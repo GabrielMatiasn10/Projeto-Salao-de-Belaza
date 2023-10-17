@@ -54,6 +54,7 @@ h2{
     flex-direction: row;
 }
 
+
 p{
     color: var(--Gray, #767676);
     text-align: center;
