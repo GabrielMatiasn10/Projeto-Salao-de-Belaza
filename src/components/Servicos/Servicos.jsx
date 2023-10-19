@@ -1,5 +1,5 @@
 import React from "react";
-import { FiHeadphones, FiSun, FiToggleRight, FiShoppingBag} from "react-icons/fi";
+import {FiSun, FiToggleRight, FiShoppingBag} from "react-icons/fi";
 import "./Servicos.css";
 
 function Servicos() {
@@ -39,5 +39,6 @@ function ServiceItem({ iconName: IconName, title, description }) {
     </div>
   );
 }
+
 
 export default Servicos;
