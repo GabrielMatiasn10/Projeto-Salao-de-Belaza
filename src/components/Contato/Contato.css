@@ -1,0 +1,51 @@
+.contato-whats {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: normal;
+  }
+  
+  .nome {
+    color: var(--Dark, #0F241D);
+  }
+  
+  .paragrafo {
+    color: var(--Gray, #767676);
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .botao {
+    background-color: #69B99D;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 20px;
+  }
+  
+  .contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    .contato-whats {
+      font-size: 18px;
+    }
+  
+    .botao {
+      font-size: 16px;
+    }
+  
+    .contact-item {
+      margin-top: 20px;
+    }
+  }
+  
