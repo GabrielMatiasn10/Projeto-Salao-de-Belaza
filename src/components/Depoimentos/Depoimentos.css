@@ -6,32 +6,24 @@
     justify-content: center;
     align-items: center;
     font-family: Poppins;
-    font-size: 36px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
+    margin-bottom: 30px;
   }
   
   .experiencia {
     width: 100%;
-    
     display: flex;
     text-align: center;
     justify-content: center;
-    align-items: center;
     color: var(--Dark, #0F241D);
     text-align: center;
-    font-family: Poppins;
-    font-size: 18px;
-    font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    
   }
   
   img {
     width: 32px;
     height: 32px;
-    flex-shrink: 0;
     margin: 20px auto; 
     display: block;
     height: auto; 

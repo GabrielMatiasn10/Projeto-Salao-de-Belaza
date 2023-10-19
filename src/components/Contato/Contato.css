@@ -6,17 +6,8 @@
     font-family: Poppins;
     font-size: 24px;
     font-weight: 700;
+    margin-top: 50px;
     line-height: normal;
-  }
-  
-  .nome {
-    color: var(--Dark, #0F241D);
-  }
-  
-  .paragrafo {
-    color: var(--Gray, #767676);
-    font-size: 18px;
-    font-weight: 500;
   }
   
   .botao {
@@ -26,7 +17,8 @@
     padding: 10px 20px;
     font-size: 18px;
     font-weight: 700;
-    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 5px;
   }
   
   .contact-item {

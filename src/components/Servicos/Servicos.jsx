@@ -5,8 +5,8 @@ import "./Servicos.css";
 function Servicos() {
   return (
     <div className="servicos">
-      <h1>Serviços</h1>
-      <p>
+      <h1>Nossos Serviços</h1>
+      <p className="text-servicos">
         Com mais de 10 anos no mercado, o Beautysalon já conquistou clientes de inúmeros países com seus tratamentos exclusivos e totalmente naturais.
       </p>
       <div className="servicos__container">

@@ -2,8 +2,6 @@
 .nomes {
     width: 100%;
     max-width: 100%;
-    height: auto;
-    flex-shrink: 0;
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -12,22 +10,11 @@
 }
 
 h1 {
-    width: 300px;
+    width: 400px;
     color: var(--Dark, #0F241D);
     font-family: Poppins;
     font-size: 24px;
-    font-style: normal;
     font-weight: 700;
-    line-height: normal;
-}
-
-p {
-    color: var(--Gray, #767676);
-    font-family: DM Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
 }
 
 button {
@@ -39,8 +26,8 @@ button {
     border-radius: 4px;
     color: white;
     background: var(--Primary-color, #69B99D);
-    margin-top: 10px; 
-    margin-bottom: 20px;
+    margin-top: 40px; 
+   
 }
 
 button:hover {
@@ -48,7 +35,7 @@ button:hover {
 }
 
 .imagem {
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     width: 100%;
     margin-top: 20px;
     border-radius: 10px;

@@ -6,6 +6,7 @@ import Sobre from "./components/Sobre/Sobre";
 import Servicos from "./components/Servicos/Servicos";
 import Depoimentos from "./components/Depoimentos/Depoimentos";
 import Contato from "./components/Contato/Contato"; 
+import Footer from "./components/Footer/Footer";  
 
 
 function App() {
@@ -13,10 +14,10 @@ function App() {
    <div>
     <Header />
     <Inicio />
-    <Sobre />
     <Servicos />
     <Depoimentos />
     <Contato /> 
+    <Footer />
    </div>
   );
 }
