@@ -6,7 +6,7 @@ function Sobre() {
         <section className="sobre-nos">
         <div className="sobre-nos-content">
           <h2>Sobre nós</h2>
-          <img
+          <img className="sobre-img"
             src="https://beautvip.com/wp-content/uploads/2021/06/sonhar-cortando-cabelo-2048x1365.jpg"
             alt="Foto do interior do nosso salão"
           />
