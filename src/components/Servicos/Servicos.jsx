@@ -40,5 +40,4 @@ function ServiceItem({ iconName: IconName, title, description }) {
   );
 }
 
-
 export default Servicos;
