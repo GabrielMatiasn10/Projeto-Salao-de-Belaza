@@ -5,6 +5,7 @@ import Inicio from "./components/Inicio/Inicio";
 import Sobre from "./components/Sobre/Sobre";
 import Servicos from "./components/Servicos/Servicos";
 import Depoimentos from "./components/Depoimentos/Depoimentos";
+import Contato from "./components/Contato/Contato"; 
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
     <Sobre />
     <Servicos />
     <Depoimentos />
+    <Contato /> 
    </div>
   );
 }
