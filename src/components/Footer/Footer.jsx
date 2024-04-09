@@ -5,7 +5,6 @@ import { BsInstagram, BsWhatsapp, BsYoutube } from 'react-icons/bs';
 function Footer() {
   return (
     <div className="footer">
-      <h1 className="footer-name">Belaza Recife</h1>
       <p className="footer-direitos">@2023 Todos os direitos reservados.</p>
       <div className="footer-icons">
         <button className="button-footer"><BsInstagram className="footer-icon" /></button>

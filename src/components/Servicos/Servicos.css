@@ -12,12 +12,19 @@
 }
 
 
-.corte{
-    width: 100%; 
-    max-width: 352px; 
-    height: auto; 
-    flex-shrink: 0;
-    flex-direction: row;
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.photos {
+  flex: 1;
+}
+
+.photos img {
+  width: 100%;
+  height: auto;
 }
 
 .servicos__container {
@@ -37,6 +44,8 @@
     font-size: 18px;
     font-weight: 400;
 }
+
+
 
 
 @media (max-width: 768px) {

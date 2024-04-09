@@ -5,24 +5,17 @@
   }
   
   .footer {
-    background: var(--Primary-color, #69B99D);
-    padding: 30px;
+    background: var(--Primary-color, #9e94f7);
+    padding: 10px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     flex-wrap: wrap;
   }
   
-  .footer-name {
-    width: 249.28px;
-    height: 38px;
-    flex-shrink: 0;
-    background: var(--Primary-color, #69B99D);
-    color: #000000;
-  }
   
   .footer-direitos {
-    color: #fff;
+    color: #000000;
   }
   
   .footer-icons {
@@ -37,7 +30,7 @@
   }
   
   .footer-icon {
-    color: #fff;
+    color: #000000;
     font-size: 24px;
   }
   
